@@ -7,17 +7,15 @@ require "jquery-ui-themes/version"
 Gem::Specification.new do |s|
   s.name        = "jquery-ui-themes"
   s.version     = JqueryUiThemes::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Mark Asson"]
+  s.email       = ["mark@fatdude.net"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of JqueryUiThemes."
-  s.description = "TODO: Description of JqueryUiThemes."
+  s.summary     = "Simple integration of jquery themes into the asset pipeline"
+  s.description = "Allow inclusion of the pre built jquery themes in the asset pipeline without having to edit the files each time."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.1"
-  # s.add_dependency "jquery-rails"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "jquery-rails"
 end
