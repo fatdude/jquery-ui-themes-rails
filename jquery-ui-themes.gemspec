@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Simple integration of jquery themes into the asset pipeline"
   s.description = "Allow inclusion of the pre built jquery themes in the asset pipeline without having to edit the files each time."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.1.0"
