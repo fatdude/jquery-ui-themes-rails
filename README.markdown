@@ -6,7 +6,7 @@ All the pre rolled themes for jQuery UI packaged into a gem.
 Usage
 -----
 
-In you stylesheet manifest include the following
+In your stylesheet manifest include the following
 
 `*= require jquery-ui/<theme name>`
 
@@ -40,7 +40,7 @@ where theme name can be one of the following:
 Current theme version
 ---------------------
 
-The current versions of the themes are for **1.8.16** of [jQuery UI](http://http://jqueryui.com/ "jQuery UI")
+The current versions of the themes are for **1.8.16** of [jQuery UI](http://jqueryui.com/ "jQuery UI")
 
 Requirements
 ------------
