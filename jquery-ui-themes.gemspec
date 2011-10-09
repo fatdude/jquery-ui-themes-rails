@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.version     = JqueryUiThemes::VERSION
   s.authors     = ["Mark Asson"]
   s.email       = ["mark@fatdude.net"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/fatdude/jquery-ui-themes-rails"
   s.summary     = "Simple integration of jquery themes into the asset pipeline"
   s.description = "Allow inclusion of the pre built jquery themes in the asset pipeline without having to edit the files each time."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.1.1"
+  s.add_dependency "rails", "~> 3.1.0"
   s.add_dependency "jquery-rails"
 end
