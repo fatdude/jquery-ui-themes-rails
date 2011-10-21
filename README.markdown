@@ -37,6 +37,15 @@ where theme name can be one of the following:
 * ui-lightness
 * vader
 
+Helper
+------
+
+If you want to take advantage of the Google CDN a helper is included that takes the theme name and optional version (latest used if version is not specified)
+
+Example:
+
+`stylesheet_link_tag jqueryui_css_google_cdn('mint-choc', '1.7.2')`
+
 Current theme version
 ---------------------
 
