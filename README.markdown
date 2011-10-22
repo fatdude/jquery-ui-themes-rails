@@ -46,6 +46,15 @@ Example:
 
 `stylesheet_link_tag jqueryui_css_google_cdn('mint-choc', '1.7.2')`
 
+Rake Task
+---------
+
+Includes a rake task which updates the themeroller created file with image-path and moves the new file and images into the asset folder (stylesheets/jquery-ui and images/jquery-ui respectively).
+
+Example:
+
+`rake jquery_ui_themes:import:themeroller[jquery-ui-1.8.16.custom/css/hot-sneaks/jquery-ui-1.8.16.custom.css,hot-sneaks]`
+
 Current theme version
 ---------------------
 
