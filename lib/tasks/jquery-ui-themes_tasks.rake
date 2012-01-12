@@ -24,5 +24,9 @@ namespace :jquery_ui_themes do
       
       FileUtils.cp_r(File.dirname(css_file) + '/images/.', File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
     end
+    
+    desc 'Import themes from google cdn'
+    task :google_cdn, [:version] => :environment do
+    end
   end
 end
