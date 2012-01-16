@@ -4,5 +4,3 @@ pkg/
 test/dummy/db/*.sqlite3
 test/dummy/log/*.log
 test/dummy/tmp/
-app/assets/images/jquery-ui
-app/assets/stylesheets/jquery-ui

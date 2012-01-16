@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     jquery-ui-themes (0.0.4)
+      httparty
 
 GEM
   remote: http://rubygems.org/
