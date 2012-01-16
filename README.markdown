@@ -46,14 +46,22 @@ Example:
 
 `stylesheet_link_tag jqueryui_css_google_cdn('mint-choc', '1.7.2')`
 
-Rake Task
----------
+Rake Tasks
+----------
 
 Includes a rake task which updates the themeroller created file with image-path and moves the new file and images into the asset folder (stylesheets/jquery-ui and images/jquery-ui respectively).
 
 Example:
 
 `rake jquery_ui_themes:import:themeroller[jquery-ui-1.8.16.custom/css/hot-sneaks/jquery-ui-1.8.16.custom.css,hot-sneaks]`
+
+Also includes a rake task to import the files for a specific version and theme from Google CDN
+
+Example 
+
+`rake jquery_ui_themes:import:google_cdn[1.8.17,ui-lightness]`
+
+Optionally you can pass 'all' instead of a specific theme and all the current themeroller themes for that version will be imported into the assets folder.
 
 Current theme version
 ---------------------

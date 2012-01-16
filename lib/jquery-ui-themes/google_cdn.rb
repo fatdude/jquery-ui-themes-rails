@@ -12,8 +12,12 @@ module JqueryUiThemes
     
       def download(theme, version)
         version ||= JqueryUiThemes::JQUERYUI_VERSION
+
+        initial_path = FileUtils.pwd
         
-        css = get("/#{version}/themes/#{theme}/jquery-ui.css")
+        path = "/#{version}/themes/#{theme}/jquery-ui.css"
+
+        css = get(path)
         
         if css.success?          
           FileUtils.mkdir_p(File.expand_path("./app/assets/stylesheets/jquery-ui/#{version}/"))
@@ -25,12 +29,17 @@ module JqueryUiThemes
           end
           
           dest_path = File.expand_path("./app/assets/images/jquery-ui/#{version}/#{theme}/")
+          
           FileUtils.cd(dest_path)
 
           # Store the images
           css.to_s.scan(/images\/.*\.png|\.gif/).each do |path|
             `wget http://ajax.googleapis.com/ajax/libs/jqueryui/#{version}/themes/#{theme}/#{path}` 
           end
+
+          FileUtils.cd(initial_path)
+        else
+          puts "Failed to download the css: #{path}"
         end
         
         css
@@ -47,9 +56,9 @@ module JqueryUiThemes
       private 
       
         def themes
-          %w{ui-lightness ui-darkness}
+          %w{black-tie blitzer cupertino dark-hive dot-luv eggplant excite-bike flick hot-sneaks humanity le-frog mint-choc overcast pepper-grinder redmond smoothness south-street start sunny swanky-purse trontastic ui-darkness ui-lightness vader}
         end
     
     end
   end
-end
+end 
