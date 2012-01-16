@@ -283,8 +283,8 @@
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 6px; -webkit-border-bottom-right-radius: 6px; -khtml-border-bottom-right-radius: 6px; border-bottom-right-radius: 6px; }
 
 /* Overlays */
-.ui-widget-overlay { background: #262626 url(image-path('jquery-ui/trontastic/ui-bg_diagonals-small_50_262626_40x40.png) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30')); }
-.ui-widget-shadow { margin: -6px 0 0 -6px; padding: 6px; background: #303030 url(image-path('jquery-ui/trontastic/ui-bg_flat_0_303030_40x100.png) 50% 50% repeat-x; opacity: .50;filter:Alpha(Opacity=50')); -moz-border-radius: 12px; -khtml-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }/*
+.ui-widget-overlay { background: #262626 url(image-path('jquery-ui/trontastic/ui-bg_diagonals-small_50_262626_40x40.png')) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: -6px 0 0 -6px; padding: 6px; background: #303030 url(image-path('jquery-ui/trontastic/ui-bg_flat_0_303030_40x100.png')) 50% 50% repeat-x; opacity: .50;filter:Alpha(Opacity=50); -moz-border-radius: 12px; -khtml-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }/*
  * jQuery UI Resizable 1.8.17
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)

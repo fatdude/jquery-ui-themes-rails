@@ -8,7 +8,7 @@
  * require jquery-ui/blitzer
  * require jquery-ui/cupertino
  * require jquery-ui/dark-hive
- * require jquery-ui/dot-luv
+ *= require jquery-ui/dot-luv
  * require jquery-ui/eggplant
  * require jquery-ui/excite-bike
  * require jquery-ui/flick
@@ -16,7 +16,7 @@
  * require jquery-ui/humanity
  * require jquery-ui/le-frog
  * require jquery-ui/mint-choc
- *= require jquery-ui/overcast
+ * require jquery-ui/overcast
  * require jquery-ui/pepper-grinder
  * require jquery-ui/redmond
  * require jquery-ui/smoothness

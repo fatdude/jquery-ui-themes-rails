@@ -25,7 +25,9 @@ module JqueryUiThemes
           
           # Store the css file
           File.open(File.expand_path("./app/assets/stylesheets/jquery-ui/#{version}/#{theme}.css.scss"), "w") do |file| 
-            file.puts css.gsub(/url\(images\/(.*)\)/, 'url(image-path(\'jquery-ui/' + version + '/' + theme + '/\1\'))')
+            content = css.gsub(/0pxdow=0px/, '0px') # Weird Google CDN bug
+            content = content.gsub(/url\(images\/(.*)(\.png|.gif\))/, 'url(image-path(\'jquery-ui/' + version + '/' + theme + '/\1\2\')')
+            file.puts(content)
           end
           
           dest_path = File.expand_path("./app/assets/images/jquery-ui/#{version}/#{theme}/")
@@ -34,7 +36,11 @@ module JqueryUiThemes
 
           # Store the images
           css.to_s.scan(/images\/.*\.png|\.gif/).each do |path|
-            `wget http://ajax.googleapis.com/ajax/libs/jqueryui/#{version}/themes/#{theme}/#{path}` 
+            check_path = File.expand_path("./#{path.split('/')[1]}")
+
+            unless File.exists?(File.expand_path(check_path))
+              `wget http://ajax.googleapis.com/ajax/libs/jqueryui/#{version}/themes/#{theme}/#{path}` 
+            end
           end
 
           FileUtils.cd(initial_path)

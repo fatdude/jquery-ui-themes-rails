@@ -283,8 +283,8 @@
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -khtml-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px; }
 
 /* Overlays */
-.ui-widget-overlay { background: #372806 url(image-path('jquery-ui/swanky-purse/ui-bg_diamond_20_372806_10x8.png) 50% 50% repeat; opacity: .80;filter:Alpha(Opacity=80')); }
-.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #ddd4b0 url(image-path('jquery-ui/swanky-purse/ui-bg_flat_75_ddd4b0_40x100.png) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30')); -moz-border-radius: 12px; -khtml-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }/*
+.ui-widget-overlay { background: #372806 url(image-path('jquery-ui/swanky-purse/ui-bg_diamond_20_372806_10x8.png')) 50% 50% repeat; opacity: .80;filter:Alpha(Opacity=80); }
+.ui-widget-shadow { margin: -8px 0 0 -8px; padding: 8px; background: #ddd4b0 url(image-path('jquery-ui/swanky-purse/ui-bg_flat_75_ddd4b0_40x100.png')) 50% 50% repeat-x; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 12px; -khtml-border-radius: 12px; -webkit-border-radius: 12px; border-radius: 12px; }/*
  * jQuery UI Resizable 1.8.17
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)

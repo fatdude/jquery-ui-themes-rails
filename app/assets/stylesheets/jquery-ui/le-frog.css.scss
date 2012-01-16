@@ -283,8 +283,8 @@
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 10px; -webkit-border-bottom-right-radius: 10px; -khtml-border-bottom-right-radius: 10px; border-bottom-right-radius: 10px; }
 
 /* Overlays */
-.ui-widget-overlay { background: #444444 url(image-path('jquery-ui/le-frog/ui-bg_diagonals-thick_15_444444_40x40.png) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30')); }
-.ui-widget-shadow { margin: 4px 0 0 4px; padding: 0px; background: #aaaaaa url(image-path('jquery-ui/le-frog/ui-bg_diagonals-small_0_aaaaaa_40x40.png) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30')); -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }/*
+.ui-widget-overlay { background: #444444 url(image-path('jquery-ui/le-frog/ui-bg_diagonals-thick_15_444444_40x40.png')) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: 4px 0 0 4px; padding: 0px; background: #aaaaaa url(image-path('jquery-ui/le-frog/ui-bg_diagonals-small_0_aaaaaa_40x40.png')) 50% 50% repeat; opacity: .30;filter:Alpha(Opacity=30); -moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }/*
  * jQuery UI Resizable 1.8.17
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
