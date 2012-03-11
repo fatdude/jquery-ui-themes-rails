@@ -3,6 +3,14 @@ jQuery UI themes for Rails
 
 All the pre rolled themes for jQuery UI packaged into a gem.
 
+Install
+-------
+In your Gemfile, add:
+
+    gem 'jquery-ui-themes'
+
+and run `bundle install`.
+
 Usage
 -----
 
