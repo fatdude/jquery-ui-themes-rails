@@ -4,25 +4,20 @@ namespace :jquery_ui_themes do
     task :themeroller, [:path, :name] => :environment do |t, args|
       abort 'Please specify a path to the file to import' if args[:path].blank?
       abort 'Please specify a name' if args[:name].blank?
+      abort ('Import file not found!') unless File.exist?(File.expand_path(args[:path]))
       
       require 'fileutils'
-      
-      begin
-        css_file = File.open(File.expand_path(args[:path]), 'r')
-      rescue
-        abort ('Import file not found!')
-      end
       
       FileUtils.mkdir_p(File.expand_path('./app/assets/stylesheets/jquery-ui/'))
       FileUtils.mkdir_p(File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
       
-      css = File.read(css_file)
+      css = File.read(File.expand_path(args[:path]))
       
       File.open(File.expand_path("./app/assets/stylesheets/jquery-ui/#{args[:name]}.css.scss"), "w") do |file| 
         file.puts css.gsub(/url\(images\/(.*)\)/, 'url(image-path(\'jquery-ui/' + args[:name] + '/\1\'))')
       end
-      
-      FileUtils.cp_r(File.dirname(css_file) + '/images/.', File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
+
+      FileUtils.cp_r(File.dirname(File.expand_path(args[:path])) + '/images/.', File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
     end
     
     desc 'Import themes from Google CDN'
