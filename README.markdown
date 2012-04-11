@@ -74,7 +74,7 @@ Optionally you can pass 'all' instead of a specific theme and all the current th
 Current theme version
 ---------------------
 
-The current versions of the themes are for **1.8.16** of [jQuery UI](http://jqueryui.com/ "jQuery UI"). The plan is to sync with the version in use by the jquery-rails gem, but should it be required the included rake tasks make supporting older or custom themes trivial.
+The current versions of the themes are for **1.8.18** of [jQuery UI](http://jqueryui.com/ "jQuery UI"). The plan is to sync with the version in use by the jquery-rails gem, but should it be required the included rake tasks make supporting older or custom themes trivial.
 
 Requirements
 ------------
