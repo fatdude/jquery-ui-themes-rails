@@ -4,11 +4,11 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require_tree . 
- * require jquery-ui/black-tie
+ *= require jquery-ui/black-tie
  * require jquery-ui/blitzer
  * require jquery-ui/cupertino
  * require jquery-ui/dark-hive
- *= require jquery-ui/dot-luv
+ * require jquery-ui/dot-luv
  * require jquery-ui/eggplant
  * require jquery-ui/excite-bike
  * require jquery-ui/flick
