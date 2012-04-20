@@ -1,6 +1,5 @@
 require 'httparty'
 require 'fileutils'
-require 'iconv'
 
 module JqueryUiThemes
 
