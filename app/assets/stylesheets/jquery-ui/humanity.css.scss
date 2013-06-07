@@ -530,7 +530,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url("images/animated-overlay.gif");
+	background: url("jquery-ui/animated-overlay.gif");
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;
@@ -801,7 +801,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #e0cfc2;
-	background: #f4f0ec url(image-path('jquery-ui/1.10.3/humanity/ui-bg_inset-soft_100_f4f0ec_1x100.png')) 50% bottom repeat-x;
+	background: #f4f0ec url(image-path('jquery-ui/humanity/ui-bg_inset-soft_100_f4f0ec_1x100.png')) 50% bottom repeat-x;
 	color: #1e1b1d;
 }
 .ui-widget-content a {
@@ -809,7 +809,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #d49768;
-	background: #cb842e url(image-path('jquery-ui/1.10.3/humanity/ui-bg_glass_25_cb842e_1x400.png')) 50% 50% repeat-x;
+	background: #cb842e url(image-path('jquery-ui/humanity/ui-bg_glass_25_cb842e_1x400.png')) 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -823,7 +823,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #cdc3b7;
-	background: #ede4d4 url(image-path('jquery-ui/1.10.3/humanity/ui-bg_glass_70_ede4d4_1x400.png')) 50% 50% repeat-x;
+	background: #ede4d4 url(image-path('jquery-ui/humanity/ui-bg_glass_70_ede4d4_1x400.png')) 50% 50% repeat-x;
 	font-weight: normal;
 	color: #3f3731;
 }
@@ -840,7 +840,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #f5ad66;
-	background: #f5f0e5 url(image-path('jquery-ui/1.10.3/humanity/ui-bg_glass_100_f5f0e5_1x400.png')) 50% 50% repeat-x;
+	background: #f5f0e5 url(image-path('jquery-ui/humanity/ui-bg_glass_100_f5f0e5_1x400.png')) 50% 50% repeat-x;
 	font-weight: normal;
 	color: #a46313;
 }
@@ -855,7 +855,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #e0cfc2;
-	background: #f4f0ec url(image-path('jquery-ui/1.10.3/humanity/ui-bg_highlight-hard_100_f4f0ec_1x100.png')) 50% 50% repeat-x;
+	background: #f4f0ec url(image-path('jquery-ui/humanity/ui-bg_highlight-hard_100_f4f0ec_1x100.png')) 50% 50% repeat-x;
 	font-weight: normal;
 	color: #b85700;
 }
@@ -872,7 +872,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #d9bb73;
-	background: #f5f5b5 url(image-path('jquery-ui/1.10.3/humanity/ui-bg_highlight-hard_75_f5f5b5_1x100.png')) 50% top repeat-x;
+	background: #f5f5b5 url(image-path('jquery-ui/humanity/ui-bg_highlight-hard_75_f5f5b5_1x100.png')) 50% top repeat-x;
 	color: #060200;
 }
 .ui-state-highlight a,
@@ -884,7 +884,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #f8893f;
-	background: #fee4bd url(image-path('jquery-ui/1.10.3/humanity/ui-bg_highlight-hard_65_fee4bd_1x100.png')) 50% top repeat-x;
+	background: #fee4bd url(image-path('jquery-ui/humanity/ui-bg_highlight-hard_65_fee4bd_1x100.png')) 50% top repeat-x;
 	color: #592003;
 }
 .ui-state-error a,
@@ -930,27 +930,27 @@ body .ui-tooltip {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_c47a23_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_c47a23_256x240.png'));
 }
 .ui-widget-header .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_ffffff_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_ffffff_256x240.png'));
 }
 .ui-state-default .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_f08000_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_f08000_256x240.png'));
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_f08000_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_f08000_256x240.png'));
 }
 .ui-state-active .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_f35f07_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_f35f07_256x240.png'));
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_cb672b_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_cb672b_256x240.png'));
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/humanity/ui-icons_ff7519_256x240.png'));
+	background-image: url(image-path('jquery-ui/humanity/ui-icons_ff7519_256x240.png'));
 }
 
 /* positioning */
@@ -1163,14 +1163,14 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa url(image-path('jquery-ui/1.10.3/humanity/ui-bg_flat_75_aaaaaa_40x100.png')) 50% 50% repeat-x;
+	background: #aaaaaa url(image-path('jquery-ui/humanity/ui-bg_flat_75_aaaaaa_40x100.png')) 50% 50% repeat-x;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 }
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #aaaaaa url(image-path('jquery-ui/1.10.3/humanity/ui-bg_flat_75_aaaaaa_40x100.png')) 50% 50% repeat-x;
+	background: #aaaaaa url(image-path('jquery-ui/humanity/ui-bg_flat_75_aaaaaa_40x100.png')) 50% 50% repeat-x;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 	border-radius: 8px;

@@ -530,7 +530,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url("images/animated-overlay.gif");
+	background: url("jquery-ui/animated-overlay.gif");
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;
@@ -801,7 +801,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #dddddd;
-	background: #ffffff url(image-path('jquery-ui/1.10.3/flick/ui-bg_flat_75_ffffff_40x100.png')) 50% 50% repeat-x;
+	background: #ffffff url(image-path('jquery-ui/flick/ui-bg_flat_75_ffffff_40x100.png')) 50% 50% repeat-x;
 	color: #444444;
 }
 .ui-widget-content a {
@@ -809,7 +809,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #dddddd;
-	background: #dddddd url(image-path('jquery-ui/1.10.3/flick/ui-bg_highlight-soft_50_dddddd_1x100.png')) 50% 50% repeat-x;
+	background: #dddddd url(image-path('jquery-ui/flick/ui-bg_highlight-soft_50_dddddd_1x100.png')) 50% 50% repeat-x;
 	color: #444444;
 	font-weight: bold;
 }
@@ -823,7 +823,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #dddddd;
-	background: #f6f6f6 url(image-path('jquery-ui/1.10.3/flick/ui-bg_highlight-soft_100_f6f6f6_1x100.png')) 50% 50% repeat-x;
+	background: #f6f6f6 url(image-path('jquery-ui/flick/ui-bg_highlight-soft_100_f6f6f6_1x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #0073ea;
 }
@@ -840,7 +840,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #0073ea;
-	background: #0073ea url(image-path('jquery-ui/1.10.3/flick/ui-bg_highlight-soft_25_0073ea_1x100.png')) 50% 50% repeat-x;
+	background: #0073ea url(image-path('jquery-ui/flick/ui-bg_highlight-soft_25_0073ea_1x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -855,7 +855,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #dddddd;
-	background: #ffffff url(image-path('jquery-ui/1.10.3/flick/ui-bg_glass_65_ffffff_1x400.png')) 50% 50% repeat-x;
+	background: #ffffff url(image-path('jquery-ui/flick/ui-bg_glass_65_ffffff_1x400.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ff0084;
 }
@@ -872,7 +872,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #cccccc;
-	background: #ffffff url(image-path('jquery-ui/1.10.3/flick/ui-bg_flat_55_ffffff_40x100.png')) 50% 50% repeat-x;
+	background: #ffffff url(image-path('jquery-ui/flick/ui-bg_flat_55_ffffff_40x100.png')) 50% 50% repeat-x;
 	color: #444444;
 }
 .ui-state-highlight a,
@@ -884,7 +884,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #ff0084;
-	background: #ffffff url(image-path('jquery-ui/1.10.3/flick/ui-bg_flat_55_ffffff_40x100.png')) 50% 50% repeat-x;
+	background: #ffffff url(image-path('jquery-ui/flick/ui-bg_flat_55_ffffff_40x100.png')) 50% 50% repeat-x;
 	color: #222222;
 }
 .ui-state-error a,
@@ -930,27 +930,27 @@ body .ui-tooltip {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_ff0084_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_ff0084_256x240.png'));
 }
 .ui-widget-header .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_0073ea_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_0073ea_256x240.png'));
 }
 .ui-state-default .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_666666_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_666666_256x240.png'));
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_ffffff_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_ffffff_256x240.png'));
 }
 .ui-state-active .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_454545_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_454545_256x240.png'));
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_0073ea_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_0073ea_256x240.png'));
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/flick/ui-icons_ff0084_256x240.png'));
+	background-image: url(image-path('jquery-ui/flick/ui-icons_ff0084_256x240.png'));
 }
 
 /* positioning */
@@ -1163,14 +1163,14 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #eeeeee url(image-path('jquery-ui/1.10.3/flick/ui-bg_flat_0_eeeeee_40x100.png')) 50% 50% repeat-x;
+	background: #eeeeee url(image-path('jquery-ui/flick/ui-bg_flat_0_eeeeee_40x100.png')) 50% 50% repeat-x;
 	opacity: .8;
 	filter: Alpha(Opacity=80);
 }
 .ui-widget-shadow {
 	margin: -4px 0 0 -4px;
 	padding: 4px;
-	background: #aaaaaa url(image-path('jquery-ui/1.10.3/flick/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
+	background: #aaaaaa url(image-path('jquery-ui/flick/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
 	opacity: .6;
 	filter: Alpha(Opacity=60);
 	border-radius: 0px;

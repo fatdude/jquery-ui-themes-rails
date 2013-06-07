@@ -530,7 +530,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url("images/animated-overlay.gif");
+	background: url("jquery-ui/animated-overlay.gif");
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;
@@ -801,7 +801,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #9c947c;
-	background: #201913 url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_inset-soft_10_201913_1x100.png')) 50% bottom repeat-x;
+	background: #201913 url(image-path('jquery-ui/mint-choc/ui-bg_inset-soft_10_201913_1x100.png')) 50% bottom repeat-x;
 	color: #ffffff;
 }
 .ui-widget-content a {
@@ -809,7 +809,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #695649;
-	background: #453326 url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_gloss-wave_25_453326_500x100.png')) 50% 50% repeat-x;
+	background: #453326 url(image-path('jquery-ui/mint-choc/ui-bg_gloss-wave_25_453326_500x100.png')) 50% 50% repeat-x;
 	color: #e3ddc9;
 	font-weight: bold;
 }
@@ -823,7 +823,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #695444;
-	background: #1c160d url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_gloss-wave_20_1c160d_500x100.png')) 50% 50% repeat-x;
+	background: #1c160d url(image-path('jquery-ui/mint-choc/ui-bg_gloss-wave_20_1c160d_500x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #9bcc60;
 }
@@ -840,7 +840,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #9c947c;
-	background: #44372c url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_gloss-wave_30_44372c_500x100.png')) 50% 50% repeat-x;
+	background: #44372c url(image-path('jquery-ui/mint-choc/ui-bg_gloss-wave_30_44372c_500x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #baec7e;
 }
@@ -855,7 +855,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #9c947c;
-	background: #201913 url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_highlight-soft_20_201913_1x100.png')) 50% 50% repeat-x;
+	background: #201913 url(image-path('jquery-ui/mint-choc/ui-bg_highlight-soft_20_201913_1x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #e3ddc9;
 }
@@ -872,7 +872,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #add978;
-	background: #619226 url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_highlight-soft_20_619226_1x100.png')) 50% top repeat-x;
+	background: #619226 url(image-path('jquery-ui/mint-choc/ui-bg_highlight-soft_20_619226_1x100.png')) 50% top repeat-x;
 	color: #ffffff;
 }
 .ui-state-highlight a,
@@ -884,7 +884,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #5f391b;
-	background: #5f391b url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_glass_15_5f391b_1x400.png')) 50% 50% repeat-x;
+	background: #5f391b url(image-path('jquery-ui/mint-choc/ui-bg_glass_15_5f391b_1x400.png')) 50% 50% repeat-x;
 	color: #ffffff;
 }
 .ui-state-error a,
@@ -930,27 +930,27 @@ body .ui-tooltip {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_222222_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_222222_256x240.png'));
 }
 .ui-widget-header .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_e3ddc9_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_e3ddc9_256x240.png'));
 }
 .ui-state-default .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_9bcc60_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_9bcc60_256x240.png'));
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_add978_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_add978_256x240.png'));
 }
 .ui-state-active .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_e3ddc9_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_e3ddc9_256x240.png'));
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_ffffff_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_ffffff_256x240.png'));
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/mint-choc/ui-icons_f1fd86_256x240.png'));
+	background-image: url(image-path('jquery-ui/mint-choc/ui-icons_f1fd86_256x240.png'));
 }
 
 /* positioning */
@@ -1163,14 +1163,14 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
+	background: #aaaaaa url(image-path('jquery-ui/mint-choc/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 }
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #aaaaaa url(image-path('jquery-ui/1.10.3/mint-choc/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
+	background: #aaaaaa url(image-path('jquery-ui/mint-choc/ui-bg_flat_0_aaaaaa_40x100.png')) 50% 50% repeat-x;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 	border-radius: 8px;

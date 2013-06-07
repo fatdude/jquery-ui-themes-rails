@@ -530,7 +530,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url("images/animated-overlay.gif");
+	background: url("jquery-ui/animated-overlay.gif");
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;
@@ -801,7 +801,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	border: 1px solid #4a4a4a;
-	background: #000000 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_gloss-wave_55_000000_500x100.png')) 50% top repeat-x;
+	background: #000000 url(image-path('jquery-ui/trontastic/ui-bg_gloss-wave_55_000000_500x100.png')) 50% top repeat-x;
 	color: #ffffff;
 }
 .ui-widget-content a {
@@ -809,7 +809,7 @@ body .ui-tooltip {
 }
 .ui-widget-header {
 	border: 1px solid #000000;
-	background: #9fda58 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_gloss-wave_85_9fda58_500x100.png')) 50% 50% repeat-x;
+	background: #9fda58 url(image-path('jquery-ui/trontastic/ui-bg_gloss-wave_85_9fda58_500x100.png')) 50% 50% repeat-x;
 	color: #222222;
 	font-weight: bold;
 }
@@ -823,7 +823,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #1b1613;
-	background: #0a0a0a url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_glass_40_0a0a0a_1x400.png')) 50% 50% repeat-x;
+	background: #0a0a0a url(image-path('jquery-ui/trontastic/ui-bg_glass_40_0a0a0a_1x400.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #b8ec79;
 }
@@ -840,7 +840,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
 	border: 1px solid #000000;
-	background: #000000 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_glass_60_000000_1x400.png')) 50% 50% repeat-x;
+	background: #000000 url(image-path('jquery-ui/trontastic/ui-bg_glass_60_000000_1x400.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #96f226;
 }
@@ -855,7 +855,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
 	border: 1px solid #696969;
-	background: #4c4c4c url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_flat_0_4c4c4c_40x100.png')) 50% 50% repeat-x;
+	background: #4c4c4c url(image-path('jquery-ui/trontastic/ui-bg_flat_0_4c4c4c_40x100.png')) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #ffffff;
 }
@@ -872,7 +872,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
 	border: 1px solid #8cce3b;
-	background: #f1fbe5 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_glass_55_f1fbe5_1x400.png')) 50% 50% repeat-x;
+	background: #f1fbe5 url(image-path('jquery-ui/trontastic/ui-bg_glass_55_f1fbe5_1x400.png')) 50% 50% repeat-x;
 	color: #030303;
 }
 .ui-state-highlight a,
@@ -884,7 +884,7 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #f1ac88;
-	background: #f6ecd5 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_gloss-wave_95_f6ecd5_500x100.png')) 50% top repeat-x;
+	background: #f6ecd5 url(image-path('jquery-ui/trontastic/ui-bg_gloss-wave_95_f6ecd5_500x100.png')) 50% top repeat-x;
 	color: #74736d;
 }
 .ui-state-error a,
@@ -930,27 +930,27 @@ body .ui-tooltip {
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_9fda58_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_9fda58_256x240.png'));
 }
 .ui-widget-header .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_1f1f1f_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_1f1f1f_256x240.png'));
 }
 .ui-state-default .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_b8ec79_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_b8ec79_256x240.png'));
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_b8ec79_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_b8ec79_256x240.png'));
 }
 .ui-state-active .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_ffffff_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_ffffff_256x240.png'));
 }
 .ui-state-highlight .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_000000_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_000000_256x240.png'));
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(image-path('jquery-ui/1.10.3/trontastic/ui-icons_cd0a0a_256x240.png'));
+	background-image: url(image-path('jquery-ui/trontastic/ui-icons_cd0a0a_256x240.png'));
 }
 
 /* positioning */
@@ -1163,14 +1163,14 @@ body .ui-tooltip {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #262626 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_diagonals-small_50_262626_40x40.png')) 50% 50% repeat;
+	background: #262626 url(image-path('jquery-ui/trontastic/ui-bg_diagonals-small_50_262626_40x40.png')) 50% 50% repeat;
 	opacity: .3;
 	filter: Alpha(Opacity=30);
 }
 .ui-widget-shadow {
 	margin: -6px 0 0 -6px;
 	padding: 6px;
-	background: #303030 url(image-path('jquery-ui/1.10.3/trontastic/ui-bg_flat_0_303030_40x100.png')) 50% 50% repeat-x;
+	background: #303030 url(image-path('jquery-ui/trontastic/ui-bg_flat_0_303030_40x100.png')) 50% 50% repeat-x;
 	opacity: .5;
 	filter: Alpha(Opacity=50);
 	border-radius: 12px;
