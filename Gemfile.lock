@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jquery-ui-themes (0.0.9)
+    jquery-ui-themes (0.0.12)
       httparty
 
 GEM
