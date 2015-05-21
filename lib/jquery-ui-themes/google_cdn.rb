@@ -5,8 +5,8 @@ module JqueryUiThemes
 
   class GoogleCDN
     include HTTParty
-    base_uri 'http://ajax.googleapis.com/ajax/libs/jqueryui/'
-    
+    base_uri '//ajax.googleapis.com/ajax/libs/jqueryui/'
+
     class << self
     
       def download(theme, version)
@@ -38,7 +38,7 @@ module JqueryUiThemes
             check_path = File.expand_path("./#{path.split('/')[1]}")
 
             unless File.exists?(File.expand_path(check_path))
-              `wget http://ajax.googleapis.com/ajax/libs/jqueryui/#{version}/themes/#{theme}/#{path}` 
+              `wget //ajax.googleapis.com/ajax/libs/jqueryui/#{version}/themes/#{theme}/#{path}`
             end
           end
 
