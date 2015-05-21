@@ -1,5 +1,9 @@
 # Versions
 
+- v1.11.4
+
+  - jQueryUI 1.11.4
+
 - v1.11.3
 
   - jQueryUI 1.11.3
