@@ -2,13 +2,11 @@ require 'httparty'
 require 'fileutils'
 
 module JqueryUiThemes
-
   class GoogleCDN
     include HTTParty
     base_uri '//ajax.googleapis.com/ajax/libs/jqueryui/'
 
     class << self
-
       def download(theme, version)
         version ||= JqueryUiThemes::JQUERYUI_VERSION
 
@@ -23,7 +21,7 @@ module JqueryUiThemes
           FileUtils.mkdir_p(File.expand_path("./app/assets/images/jquery-ui/#{version}/#{theme}/"))
 
           # Store the css file
-          File.open(File.expand_path("./app/assets/stylesheets/jquery-ui/#{version}/#{theme}.css.scss"), "w") do |file|
+          File.open(File.expand_path("./app/assets/stylesheets/jquery-ui/#{version}/#{theme}.css.scss"), 'w') do |file|
             content = css.gsub(/0pxdow=0px/, '0px') # Weird Google CDN bug
             content = content.gsub(/url\(images\/(.*)(\.png|.gif\))/, 'url(image-path(\'jquery-ui/' + version + '/' + theme + '/\1\2\')')
             file.puts(content)
@@ -60,10 +58,9 @@ module JqueryUiThemes
 
       private
 
-        def themes
-          %w{black-tie blitzer cupertino dark-hive dot-luv eggplant excite-bike flick hot-sneaks humanity le-frog mint-choc overcast pepper-grinder redmond smoothness south-street start sunny swanky-purse trontastic ui-darkness ui-lightness vader}
-        end
-
+      def themes
+        %w{black-tie blitzer cupertino dark-hive dot-luv eggplant excite-bike flick hot-sneaks humanity le-frog mint-choc overcast pepper-grinder redmond smoothness south-street start sunny swanky-purse trontastic ui-darkness ui-lightness vader}
+      end
     end
   end
 end
