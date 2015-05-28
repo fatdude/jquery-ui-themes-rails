@@ -8,16 +8,16 @@ namespace :jquery_ui_themes do
       
       require 'fileutils'
       
-      FileUtils.mkdir_p(File.expand_path('./app/assets/stylesheets/jquery-ui/'))
-      FileUtils.mkdir_p(File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
+      FileUtils.mkdir_p(File.expand_path("./vendor/assets/stylesheets/jquery-ui/#{args[:name]}"))
+      FileUtils.mkdir_p(File.expand_path("./vendor/assets/stylesheets/jquery-ui/#{args[:name]}/images"))
       
       css = File.read(File.expand_path(args[:path]))
       
-      File.open(File.expand_path("./app/assets/stylesheets/jquery-ui/#{args[:name]}.css.scss"), "w") do |file| 
-        file.puts css.gsub(/url\(['"]?images\/([^'"]+)['"]?\)/, 'url(image-path("jquery-ui/' + args[:name] + '/\1"))')
+      File.open(File.expand_path("./vendor/assets/stylesheets/jquery-ui/#{args[:name]}/theme.css.scss"), "w") do |file|
+        file.puts css.gsub(/url\(['"]?images\/([^'"]+)['"]?\)/, 'url(image-path("jquery-ui/' + args[:name] + '/images/\1"))')
       end
 
-      FileUtils.cp_r(File.dirname(File.expand_path(args[:path])) + '/images/.', File.expand_path('./app/assets/images/jquery-ui/' + args[:name]))
+      FileUtils.cp_r(File.dirname(File.expand_path(args[:path])) + '/images/.', File.expand_path("./vendor/assets/stylesheets/jquery-ui/#{args[:name]}/images/"))
     end
     
     desc 'Import themes from Google CDN'
