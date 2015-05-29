@@ -1,0 +1,23 @@
+#!/bin/bash
+
+function usage {
+  echo $0 '<jquery-ui-themes-main-folder>' 
+  echo
+  echo "The folder is the one that contains the 'themes' subfolder"
+  exit 1
+}
+
+[[ $# -eq 1 ]] || usage
+
+SOURCE=$1/themes
+
+[[ -d $SOURCE ]] || usage
+
+echo Processing $SOURCE...
+
+for f in $(find $SOURCE -depth 1 -type d); do
+  rake app:jquery_ui_themes:import:themeroller[$f/theme.css,$(basename $f)]
+  echo $(basename $f) done
+done
+
+echo Done.
