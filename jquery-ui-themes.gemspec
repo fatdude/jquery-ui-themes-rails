@@ -7,8 +7,8 @@ require 'jquery-ui-themes/version'
 Gem::Specification.new do |s|
   s.name        = 'jquery-ui-themes'
   s.version     = JqueryUiThemes::VERSION
-  s.authors     = ['Mark Asson', 'Andrea Salicetti']
-  s.email       = ['mark@fatdude.net, andrea.salicetti@gmail.com']
+  s.authors     = ['Mark Asson']
+  s.email       = ['mark@fatdude.net']
   s.homepage    = 'https://github.com/knightq/jquery-ui-themes-rails'
   s.summary     = 'Simple integration of jquery themes into the asset pipeline'
   s.description = 'Allow inclusion of the pre built jquery themes in the asset pipeline without having to edit the files each time.'
