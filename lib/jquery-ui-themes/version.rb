@@ -1,4 +1,4 @@
 module JqueryUiThemes
-  VERSION = "0.0.11"
-  JQUERYUI_VERSION = "1.10.3"
+  VERSION = '1.11.4'
+  JQUERYUI_VERSION = VERSION
 end
