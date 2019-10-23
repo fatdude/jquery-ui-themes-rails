@@ -55,7 +55,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.19)
     multi_json (1.14.1)
-    multi_xml (0.5.1)
+    multi_xml (0.6.0)
     polyglot (0.3.3)
     rack (1.4.7)
     rack-cache (1.9.0)
